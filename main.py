@@ -7,7 +7,6 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import load_model
 import streamlit as st
 
-# Constants (MUST match training)
 MAX_FEATURES = 10000
 MAX_LEN = 500
 

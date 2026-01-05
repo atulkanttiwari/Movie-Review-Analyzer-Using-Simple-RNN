@@ -2,6 +2,9 @@
 
 This project implements a sentiment analysis model for IMDB movie reviews using a Simple Recurrent Neural Network (RNN) built with TensorFlow/Keras. It includes training code, prediction examples, and an interactive web application for classifying movie reviews as positive or negative.
 
+## Deployment
+Link:- https://movie-review-analyzer-using-simple-rnn-epznlatmkvbhw8upapd34i.streamlit.app/
+
 ## Features
 
 - **Model Training**: Jupyter notebook (`simplernn.ipynb`) for training a Simple RNN model on the IMDB dataset.
@@ -72,6 +75,3 @@ Use `prediction.ipynb` for example predictions or integrate the prediction funct
 - **Max Sequence Length**: 300 (for training), 500 (for inference)
 - **Vocabulary Size**: 10000 words
 
-## License
-
-This project is for educational purposes. Feel free to use and modify as needed.
